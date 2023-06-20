@@ -27,6 +27,7 @@ p {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    text-align: center;
   }
 
   .row {
@@ -81,11 +82,15 @@ p {
         align-items: center;
       }
       
-      
+     
       .button-menu-toggle {
         display: none;
-      }
+      } 
 
+      .greeting{
+        text-align:center; 
+        
+      }
       @media (max-width: 768px) {
         .column {
           flex: 100%;

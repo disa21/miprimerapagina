@@ -71,5 +71,11 @@ pantallas grandes, agregar lo siguiente al final del archivo CSS:
     justify-content: center;
     padding:1px;
     margin: 0px;
+    text-align: center;
+    
+}
 
+iframe, vide{
+    max-width: 90%;
+    align-items: center;
 }
